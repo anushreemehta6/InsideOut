@@ -3,32 +3,32 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>InsideOut</title>
+  <title>Chat-Ai</title>
   <link rel="stylesheet" href="styles.css">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
 </head>
 <body>
+  <!-- Navbar -->
   <nav>
     <div class="nav-bar">
-      <img src="logo.png" alt="" class="logo" />
-
+      <img src="logo.png" alt="Logo" class="logo" />
       <a href="first.html" class="tabs">Home</a>
       <a href="aboutus.html" class="tabs">About us</a>
-      <a href="." class="tabs">what we serve</a>
+      <a href="serve.html" class="tabs">What we serve</a>
       <a href="." class="tabs">Contact us</a>
-      <a href="." class="tabs">SignIn</a>
-      <button class="chat"> <a href="chat.html">CHAT NOW</a></button>
+      <a href="." class="tabs">Sign In</a>
+      <button class="chat"><a href="chat.html">CHAT NOW</a></button>
     </div>
   </nav>
+
+  <!-- Main Chat Section -->
   <div id="app">
     <h1>InsideOut</h1>
-    <div class="chat-container">
-      <textarea id="questionInput" placeholder="Type your question here..." cols="30" rows="5"></textarea>
-      <button id="generateAnswerBtn">Generate Answer</button>
-      <pre id="answerOutput">Answer will appear here...</pre>
-    </div>
+    <div id="chatContainer"></div>
+    <textarea id="questionInput" placeholder="Type your question here..." cols="30" rows="4"></textarea>
+    <br />
+    <button id="generateAnswerBtn">Send</button>
   </div>
-  
+
   <script src="script.js"></script>
 </body>
 </html>
