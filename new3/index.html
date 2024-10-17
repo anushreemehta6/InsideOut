@@ -3,16 +3,30 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Chat-Ai</title>
+  <title>InsideOut</title>
   <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
 </head>
 <body>
+  <nav>
+    <div class="nav-bar">
+      <img src="logo.png" alt="" class="logo" />
+
+      <a href="." class="tabs">Home</a>
+      <a href="." class="tabs">About us</a>
+      <a href="." class="tabs">what we serve</a>
+      <a href="." class="tabs">Contact us</a>
+      <a href="." class="tabs">SignIn</a>
+      <button class="chat"> <a href="chat.html">CHAT NOW</a></button>
+    </div>
+  </nav>
   <div id="app">
-    <h1>Chat-Ai</h1>
-    <textarea id="questionInput" cols="30" rows="10"></textarea>
-    <br />
-    <button id="generateAnswerBtn">Generate answer</button>
-    <pre id="answerOutput">Answer will appear here...</pre>
+    <h1>InsideOut</h1>
+    <div class="chat-container">
+      <textarea id="questionInput" placeholder="Type your question here..." cols="30" rows="5"></textarea>
+      <button id="generateAnswerBtn">Generate Answer</button>
+      <pre id="answerOutput">Answer will appear here...</pre>
+    </div>
   </div>
   
   <script src="script.js"></script>
