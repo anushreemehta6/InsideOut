@@ -90,7 +90,7 @@ body {
   border-radius: 35px; /* Rounded corners */
   color: #ffffff; /* Text color */
   font-family: "Sofia Sans Condensed", sans-serif;
-  /* display: inline-block; */
+  display: inline-block;
   height: 70vh;
   width: 35vw;
   position: relative;
@@ -106,4 +106,5 @@ body {
   height: 300px;
   position: absolute;
   left: 60px;
+  
 }
