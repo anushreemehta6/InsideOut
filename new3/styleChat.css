@@ -58,6 +58,9 @@ height: 150px;
     height: 500px;
     background: #646A4E;
     border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 0px;
 }
 
 .anychat{
