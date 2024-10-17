@@ -1,0 +1,80 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  background-color: #443e45;
+}
+
+.gradient-box {
+  width: 25vw; /* Adjust the width as needed */
+  height: 50vh; /* Adjust the height as needed */
+  background: linear-gradient(
+    to top,
+    rgb(71, 74, 102),
+    rgb(22, 21, 30)
+  ); /* #00008B is dark blue and #ADD8E6 is light blue */
+  border-radius: 70px; /* Optional: rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: add some shadow for depth */
+  display: inline-block;
+  display: inline-block;
+  position: absolute;
+  top: 200px;
+  left: 240px;
+}
+
+.gradient-box img {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+
+.Sign-In {
+  width: 40vw; /* Adjust the width as needed */
+  height: 70vh; /* Adjust the height as needed */
+  background: linear-gradient(
+    to top,
+    rgb(71, 74, 102),
+    rgb(22, 21, 30)
+  ); /* #00008B is dark blue and #ADD8E6 is light blue */
+  border-radius: 70px; /* Optional: rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: add some shadow for depth */
+  display: block;
+  position: absolute;
+  top: 110px;
+  right: 240px;
+}
+
+.Sign-In .Email input {
+  padding: 15px;
+  height: 40px;
+  width: 470px;
+  border: none;
+  position: absolute;
+  top: 200px;
+  left: 55px;
+  border-radius: 20px;
+}
+
+.Sign-In .Aliasname input {
+  padding: 15px;
+  height: 40px;
+  width: 470px;
+  border: none;
+  position: absolute;
+  top: 300px;
+  left: 55px;
+  border-radius: 20px;
+}
+
+.Sign-In button {
+    width: 50%;
+    padding: 15px; 
+    border: none; 
+    border-radius: 25px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #d89b15; 
+    color: rgb(0, 0, 0); 
+    cursor: pointer;
+  }
